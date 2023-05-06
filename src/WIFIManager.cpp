@@ -18,7 +18,9 @@
 
 #include "config.h"
 #include "Debug.h"
-
+#ifndef CONST
+ #define CONST const
+ #endif
 #include "../html/home.htm.h"
 
 #define DNS_PORT    53
