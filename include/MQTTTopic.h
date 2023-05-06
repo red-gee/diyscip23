@@ -15,7 +15,7 @@
 #ifndef MQTTTOPIC_H
 #define MQTTTOPIC_H
 
-#include "arduino.h"
+#include "Arduino.h"
 
 class MQTTTopic {
   public:
